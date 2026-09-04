@@ -14,7 +14,7 @@ This is four risk factors, not fifteen bets. Compute names glue (ASML–LRCX 1y 
 
 Planning math used ~25% blended public-market, not 97%. A $12M daughter outcome is voice+access, not this ticker list. "Profit in every regime" is rejected.
 
-## MODE=STAGED (locked, prior mechanical audits GO)
+## MODE=STAGED (arithmetic locked. Funding this session is NO-GO until kill quotes exist.)
 
 ```
 NAV 5000
@@ -64,7 +64,9 @@ elif S>=76 and 63d cluster corr>0.80: TRIM_TO_TARGET
 else: SLOW
 ```
 
-Laggard add: twins down AND two clean prints AND kill CLEAR.
+TRIM glue is per cluster. Optics 0.84 does not TRIM TSM. Corr of 0.80 is SLOW.
+
+Laggard add: twins down AND two clean prints AND kill CLEAR AND size ≤10% of target. A missing box is unchecked. Incomplete dicts are not ACCELERATE.
 
 ## What is proven vs not
 
@@ -76,7 +78,9 @@ Not proven: kill file on utilization history (series not wired); full 8-input S;
 
 ## Software honesty
 
-Package `lattice/` + `scripts/analyze.py` fetch Yahoo, Pearson clusters, partial S. Tests pass on cash identity and TRIM branch. No broker. No Cboe/AAII/CNN equity feed.
+Package `lattice/` + `scripts/analyze.py` fetch Yahoo, Pearson clusters, partial S. Tests pass on cash identity, TRIM branch, kill edges, and `funding_gate`. No broker. No Cboe/AAII/CNN equity feed.
+
+Empty OBSERVABILITY kill record is MISSED, not CLEAR. `funding_gate({})` is NO-GO. Eight dated quotes return ENGINE-READY. ENGINE-READY is not GO. Engine existence is not GO. Arithmetic GO is not funding GO. Operator still pastes quotes, recasts shares at the broker, and clicks.
 
 ## Voice (layer 2) — free tier, no ticker pumping
 

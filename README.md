@@ -2,7 +2,7 @@
 
 Canonical private operating repo: `onnxscibroccoli/lattice` (ChatGPT/Gemini will 404 that one).
 
-Engine HEAD: `f8c9e51` (2026-09-04). Empty kill record is MISSED. STAGED funding this session is **NO-GO**. ENGINE-READY is not GO.
+Engine HEAD: `9f7c51c` (2026-09-04). Cited 4 Sep prints return ENGINE-READY. STAGED funding this session is **NO-GO**. ENGINE-READY is not GO.
 
 This public repo exists so an external model can audit without a token.
 

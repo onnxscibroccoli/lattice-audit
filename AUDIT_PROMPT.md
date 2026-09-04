@@ -78,7 +78,7 @@ Not proven: kill file on utilization history (series not wired); full 8-input S;
 
 ## Software honesty
 
-Package `lattice/` + `scripts/analyze.py` fetch Yahoo, Pearson clusters, partial S. Engine SHA f8c9e51. Tests pass on cash identity, TRIM branch (never below target; weekly cap 10% of that name's target), kill edges, empty CLEAR → MISSED, SMH−SPY fraction-or-percent, complete laggard dictionaries, and `session_funding`. No broker. No Cboe/AAII/CNN equity feed.
+Package `lattice/` + `scripts/analyze.py` fetch Yahoo, Pearson clusters, partial S. Engine SHA 9f7c51c. `python3 -m lattice.cli --session` loads cited 4 Sep prints and the session tape (news and revisions stay dropped). Empty identity CLI stays MISSED. Tests pass on cash identity, TRIM branch (never below target; weekly cap 10% of that name's target), kill edges, empty CLEAR → MISSED, SMH−SPY fraction-or-percent, complete laggard dictionaries, and `session_funding`. No broker. No Cboe/AAII/CNN equity feed in the identity CLI.
 
 Empty OBSERVABILITY kill record is MISSED, not CLEAR. `funding_gate({})` is NO-GO. Eight dated quotes return ENGINE-READY. `session_funding` is GO only with quotes + broker-share recalc + human click. ENGINE-READY is not GO. Engine existence is not GO. Arithmetic GO is not funding GO. Operator still pastes quotes, recasts shares at the broker, and clicks.
 

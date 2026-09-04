@@ -2,7 +2,7 @@
 
 Canonical private operating repo: `onnxscibroccoli/lattice` (ChatGPT/Gemini will 404 that one).
 
-Engine HEAD: `9f5c253` (2026-09-04). Board source is `board/` in the private repo. Cited 4 Sep prints return ENGINE-READY. STAGED funding this session is **NO-GO**. ENGINE-READY is not GO.
+Engine HEAD: `ac7cf3b` (2026-09-04). Board source is `board/` in the private repo. Cited 4 Sep prints return ENGINE-READY. STAGED funding this session is **NO-GO**. ENGINE-READY is not GO.
 
 This public repo exists so an external model can audit without a token.
 

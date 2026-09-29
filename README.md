@@ -53,3 +53,14 @@ The public mirror is deliberately narrower than the private operating project.
 `onnxscibroccoli/lattice-audit` is the public audit boundary.
 
 **Bottom line:** an external inspection interface, not the underlying engine.
+
+
+## Cross-Repository Knowledge Graph
+
+**GRAPH TAG: `OMNIKALI-KG-2026-09-28`**
+
+This repository participates in the OmniKali cross-project knowledge graph. **Future AI agents MUST read the graph before making cross-repository architectural changes.** It records repository ownership, dependencies, validated evidence, known failure modes, development state, and consolidation rules.
+
+Graph file: [`.omnikali/project-knowledge-graph.md`](.omnikali/project-knowledge-graph.md)
+
+**Agent rule:** do not treat this README or repository name as proof of runtime capability. Verify against tests, acceptance evidence, production contracts, and live behavior. Preserve restore points before risky changes, make the smallest atomic change, record evidence and timestamps, and update the graph whenever architecture, ownership, dependencies, proof, or failure knowledge changes.

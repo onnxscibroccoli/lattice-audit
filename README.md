@@ -1,5 +1,8 @@
 # LATTICE Audit Mirror
 
+
+> **Project reviewer:** [Current evidence classification and ordered remediation](docs/PORTFOLIO_READINESS.md) · [tracking issue](https://github.com/onnxscibroccoli/lattice-audit/issues/1). No unsupported production or professional-experience claims.
+
 **Status:** Public audit mirror / external-model interface  
 **Repository:** `onnxscibroccoli/lattice-audit`  
 **Documentation snapshot:** 2026-09-28 23:12 EDT
